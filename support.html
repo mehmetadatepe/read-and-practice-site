@@ -3,42 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Support - Read & Practice</title>
+  <title>Support - Read &amp; Practice</title>
+  <style>
+    :root { color-scheme: light; --ink:#17352d; --muted:#52645f; --accent:#1f765d; --line:#d9e5e0; }
+    * { box-sizing: border-box; }
+    body { margin:0; min-height:100vh; padding:24px; display:grid; place-items:center; background:#f7faf8; color:var(--ink); font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { width:min(680px,100%); padding:clamp(28px,6vw,48px); background:#fff; border:1px solid var(--line); border-radius:22px; box-shadow:0 18px 50px rgba(23,53,45,.08); }
+    .brand { margin:0 0 24px; color:var(--accent); font-size:.82rem; font-weight:800; letter-spacing:.08em; }
+    h1, h2 { line-height:1.2; color:var(--accent); }
+    h1 { margin:0 0 16px; font-size:clamp(1.8rem,6vw,2.4rem); }
+    h2 { margin:24px 0 8px; font-size:1.2rem; }
+    p { margin:.5rem 0; }
+    ul { margin:.5rem 0; padding-left:1.2rem; }
+    a { color:var(--accent); }
+    .secondary { color:var(--muted); }
+    hr { border:0; border-top:1px solid var(--line); margin:30px 0; }
+    @media (max-width:480px) { body { padding:14px; } main { border-radius:16px; } }
+  </style>
 </head>
-<body>
-  <h1>Read & Practice Support</h1>
+<body><main>
+  <p class="brand">READ &amp; PRACTICE</p>
 
-  <p>
-    If you have a question, problem, or suggestion about Read & Practice,
-    please contact us.
-  </p>
-
-  <h2>Common Topics</h2>
-
-  <p>
-    You can contact support for issues related to:
-  </p>
-
-  <ul>
-    <li>Account access</li>
-    <li>Email verification</li>
-    <li>Password reset</li>
-    <li>Reading progress</li>
-    <li>Saved words and phrases</li>
-    <li>Story or practice problems</li>
-  </ul>
+  <h1>Support</h1>
+  <p>Questions, problems or suggestions about Read &amp; Practice? We are happy to help.</p>
 
   <h2>Contact</h2>
+  <p>Email: <a href="mailto:support.readandpractice@gmail.com">support.readandpractice@gmail.com</a></p>
+  <p>You can also send a message from inside the app: <strong>Account &gt; Feedback and Support</strong>. If you would like a reply, add your email address in the form.</p>
 
+  <h2>We can help with</h2>
+  <ul>
+    <li>Account access, email verification and password reset</li>
+    <li>Reading progress, saved words and phrases</li>
+    <li>Story, practice or AI feedback problems</li>
+    <li>Account deletion and privacy requests</li>
+  </ul>
+
+  <h2>Links</h2>
   <p>
-    Support email: mehmetadatepe@gmail.com
+    <a href="https://mehmetadatepe.github.io/read-and-practice-legal/privacy/">Privacy Policy</a> |
+    <a href="https://mehmetadatepe.github.io/read-and-practice-legal/account-deletion/">Account deletion</a> |
+    <a href="./">Home</a>
   </p>
 
-  <p>
-    Please replace this address with the support email that will be used
-    for Read & Practice before public release.
-  </p>
+  <hr>
 
-  <p><a href="index.html">Back to Read & Practice</a></p>
-</body>
+  <div class="secondary" lang="tr">
+    <h1>Destek</h1>
+    <p>Read &amp; Practice hakkında sorunuz, probleminiz veya öneriniz mi var? Yardımcı olmaktan memnuniyet duyarız.</p>
+    <h2>İletişim</h2>
+    <p>E-posta: <a href="mailto:support.readandpractice@gmail.com">support.readandpractice@gmail.com</a></p>
+    <p>Uygulamanın içinden de mesaj gönderebilirsiniz: <strong>Hesap &gt; Geri Bildirim ve Destek</strong>. Yanıt almak istiyorsanız formdaki alana e-posta adresinizi yazın.</p>
+    <h2>Yardımcı olabileceğimiz konular</h2>
+    <ul>
+      <li>Hesap erişimi, e-posta doğrulama ve şifre sıfırlama</li>
+      <li>Okuma ilerlemesi, kaydedilen kelime ve ifadeler</li>
+      <li>Hikâye, pratik veya AI geri bildirimi sorunları</li>
+      <li>Hesap silme ve gizlilik talepleri</li>
+    </ul>
+  </div>
+</main></body>
 </html>
